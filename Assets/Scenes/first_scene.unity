@@ -424,7 +424,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5299250443576486975, guid: 37dc23f0237ed1a4987b23d29b5833aa, type: 3}
       propertyPath: m_Name
-      value: Spine GameObject (SpineUnityGirl)
+      value: 'Spine GameObject '
       objectReference: {fileID: 0}
     - target: {fileID: 6580090690867672607, guid: 37dc23f0237ed1a4987b23d29b5833aa, type: 3}
       propertyPath: m_Mesh
