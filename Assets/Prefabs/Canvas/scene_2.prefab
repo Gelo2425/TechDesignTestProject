@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2837105538148749564}
   - component: {fileID: 850167579288252374}
   - component: {fileID: 8063493985839863230}
+  - component: {fileID: 7086485749152952584}
   m_Layer: 5
   m_Name: button_back
   m_TagString: Untagged
@@ -146,6 +147,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 779235e56cb529e4bba57be1418857d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7086485749152952584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639136364528962733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:65fb23220f4b46b40b0d07525531b2df
+    m_TableEntryReference:
+      m_KeyId: 952293998592
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1603919351642931227}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &4208633916600316859
 GameObject:
   m_ObjectHideFlags: 0
